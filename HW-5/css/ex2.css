@@ -1,0 +1,7 @@
+html {
+    height: 100%;
+}
+body {
+    background: url(../images/pole-zelen-trava-dom-derevya.jpg) center  no-repeat, url(../images/lamp-png-0.png) repeat-x 0 0 / 55px, url(../images/grass-png-images-pictures-transparent-28.png) repeat-x 0 100% / 230px , url(../images/пончик.png) repeat-y 100% 0/ 50px, url(../images/Ёжик.png) repeat-y 0 0/ 50px;
+    background-color: green; 
+}

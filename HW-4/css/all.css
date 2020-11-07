@@ -1,0 +1,44 @@
+li {
+    list-style: none;
+}
+li:first-child a {
+    color: green;
+}
+li:nth-child(even) {
+    font-size: 20px;
+}
+li:nth-child(odd) {
+    font-size: 18px;
+}
+li:nth-child(3n+1) {
+    background: yellow;
+}
+a{
+    text-decoration: none;
+}
+li:nth-child(2n+1) :hover {
+    background: tomato;
+    color: turquoise;
+}
+li::before{
+    content: "-";
+}
+div.text-box :first-child {
+    color: pink;
+}
+.text-box :nth-child(3) {
+    color: grey;
+}
+div :not(.text-box):only-child {
+    color: red 
+} 
+.text-box :nth-child(7) {
+    color: blue;
+}
+.text-box :nth-child(8) {
+    color: green;
+}
+.text-box :last-child {
+    color: yellow;
+}
+

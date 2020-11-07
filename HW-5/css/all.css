@@ -1,0 +1,21 @@
+p {
+    font-size: 20px;
+    line-height: 25px;
+    text-indent: 40px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    font-family: 'Advent Pro','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div[class^='box'] {
+    width: 100px;
+    height: 100px;
+}
+.box1 {
+    background:repeating-linear-gradient(to bottom, green 0%, green 10%, white 10%, white 20%);
+}
+.box2 {
+    background: repeating-linear-gradient(to top left, black 0%, black 20%, grey 20%, gray 80%);
+}
+.box3{
+    background: radial-gradient(circle, red 0%, red 20%, black 20%, black 100%);
+}
